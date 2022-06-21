@@ -1,33 +1,52 @@
-const Contenedor =require('./contenedor');
-
+const API =require('./api');
 const express = require('express');
 const app = express();
+const {Router} = express;
+const router = Router();
+
+app.use(express.static(__dirname + '/public'));
+app.use(express.json())
+app.use(express.urlencoded({ extended: true}))
+app.use('/api/productos', router)
+app.on("error", () => {console.log("error del servidor")})
 
 
-const contenedorProductos= new Contenedor('./productos.txt');
+
+let api= new API();
 
 const PORT=8080;
 
-
 app.listen(PORT, () => {console.log(`Servidor corriendo en el puerto ${PORT}`)});
 
-app.get('/productos', async (req,res) => {
-   try{
-      const productos = await contenedorProductos.getAll();
-      res.json(productos);
-
-   }catch (err){ 
-    
-      res.json(err);
-
-   }});
-
-app.get('/productoRandom', async (req,res) => {
-   try{
-      const productos = await contenedorProductos.getAll();
-      const producto = productos[Math.floor(Math.random() * productos.length)];
+// devuelve todos los productos
+router.get('/', (req, res) => {
+      res.json(api.getAll());
+   });
+// devuelve un producto segun su id
+router.get('/:id', (req, res) => {
+      res.json(api.getById(parseInt(req.params.id)));
+   });
+   // recibe y agrega un producto, y lo devuelve con su id asignado.
+router.post('/', (req, res) => {
+      const producto ={
+         title: req.body.title, 
+         price: req.body.price, 
+         thumbnail: req.body.thumbnail};
+      producto.id = api.getId();
+      api.add(producto);
+      res.json(api.getAll());
+   });
+   // recibe y actualiza un producto segun su id.
+router.put('/:id', (req, res) => {
+   const producto ={
+      title: req.body.title, 
+      price: req.body.price, 
+      thumbnail: req.body.thumbnail};
+      api.update(parseInt(req.params.id), producto);
       res.json(producto);
-
-   }catch (err){
-      res.json(err);
-   }});
+   });
+   //elimina un producto segun su id.
+router.delete('/:id', (req, res) => {
+      api.delete(parseInt(req.params.id));
+      res.json(api.getAll());
+   }  );

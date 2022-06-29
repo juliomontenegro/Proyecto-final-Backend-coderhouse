@@ -19,14 +19,10 @@ html(lang='en')
               each producto in productos
                 tr
                   td= producto.title
-                    a(href='/productos/' + producto.id)
-                      strong
-                        
+
                   td= producto.price
-                    
                   td
                      img(src=producto.thumbnail, width='72px', height='72px')
-                    
             else
               tr
                 td No hay productos guardados

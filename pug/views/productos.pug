@@ -1,0 +1,38 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Bootstrap demo
+    link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor', crossorigin='anonymous')
+  body
+    h1.text-center Desafio Numero 5 (Usando PUG)
+    .mt-3.w-75.mx-auto
+      h1.text-center Lista de productos guardados
+      table.table.table-dark.mt-3
+        tbody
+          tr
+            th(scope='col') T&iacute;tulo
+            th(scope='col') Precio
+            th(scope='col') Miniatura
+            unless productos.length == 0
+              each producto in productos
+                tr
+                  td= producto.title
+                    a(href='/productos/' + producto.id)
+                      strong
+                        
+                  td= producto.price
+                    
+                  td
+                     img(src=producto.thumbnail, width='72px', height='72px')
+                    
+            else
+              tr
+                td No hay productos guardados
+                td No hay productos guardados
+                td No hay productos guardados
+ 
+      a(href='/')
+        button.btn.btn-success Volver al formulario de carga
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js', integrity='sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2', crossorigin='anonymous')

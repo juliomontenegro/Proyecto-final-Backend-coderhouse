@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="https://unpkg.com/moment" />
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="text-center">Desafio Numero 6</h1>
+
+    <section class="container pt-4">
+        <form>
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" name="title" class="form-control" id="title">
+            </div>
+
+            <div class="mb-3">
+                <label for="price" class="form-label">Price</label>
+                <input type="number" name="price" class="form-control" id="price">
+            </div>
+
+            <div class="mb-3">
+                <label for="thumbnial" class="form-label">Thumbnial</label>
+                <input type="text" name="thumbnail" class="form-control" id="thumbnail">
+            </div>
+
+            <button class="btn btn-primary" id="boton">guardar producto</button>
+        </form>
+
+    </section>
+    <div id="contenidoTabla"></div>
+  
+    <section class="mt-4 container pt-4">
+        <h2 class="text-center">Centro de mensajes</h2>
+        <hr>
+        <div id="mjsEnviados" style="height:150px; overflow:auto;"></div>
+        <hr>
+        <div class="mb-3">
+            <input placeholder="Escribe tu Email..." required type="email" name="email" class="form-control w-25" id="email">
+        </div>
+        
+        <div class="mb-3">
+            <input placeholder="Escribe tu mensaje..." required type="text" name="text" class="w-50 form-control" id="texto"> 
+        </div>
+        <button class="ms-2 btn btn-primary" id="botonMensaje">Enviar</button>
+
+    </section>
+    <hr>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/index.js"></script>
+
+</body>
+
+</html>

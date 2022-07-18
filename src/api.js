@@ -1,49 +1,65 @@
-class api {
+const fs = require('fs');
 
-   productos = [];
+class api{
+    constructor(ruta){
+        this.ruta=ruta;
+    }
    
-//    agregar un producto
-   add(producto) {
-        this.productos.push(producto);
-     }
-
-// asignar una id a un producto.
-
-    getId() {
-        return this.productos.length > 0 ? this.productos[this.productos.length - 1].id + 1 : 1;
+    async getAll(){
+        const data=await fs.promises.readFile(this.ruta);
+        return JSON.parse(data);
+    }
+    
+    async save(data){
+        await fs.promises.writeFile(this.ruta,JSON.stringify(data,null,2));
     }
 
-// buscar en el array un producto por su id devolver error en caso que no exista.
-    getById(id) {
-        const producto = this.productos.find(producto => producto.id === id);
-        if (!producto) {
+   
+    async getById(id){
+        const data=await this.getAll();
+        const producto=data.find(producto=>producto.id===id);
+        if(!producto){
             throw new Error('Producto no encontrado');
         }
         return producto;
     }
-
-// Obtener todos los productos
-    getAll() {
-        return this.productos;
+  
+    async add(producto){
+        const data=await this.getAll();
+        producto.id=data.length+1;
+        data.push(producto);
+        await this.save(data);
     }
-// update de un producto segun su id
-    update(id, producto) {
-        const index = this.productos.findIndex(producto => producto.id === id);
-
-        if(!index){
+   
+    async update(id,producto){
+        const data=await this.getAll();
+        const index=data.findIndex(producto=>producto.id===id);
+        if(index===-1){
             throw new Error('Producto no encontrado');
         }
-            this.productos[index] = producto
-            this.productos[index].id = id;
+        data[index]=producto;
+        data[index].id=id;
+        data[index].timestamp=Date.now();
+        await this.save(data);
     }
 
-// eliminar un producto del array segun su id
-    delete(id) {
-        if(!this.getById(id)){
+    async delete(id){
+        const data=await this.getAll();
+        const index=data.findIndex(producto=>producto.id===id);
+        if(index===-1){
             throw new Error('Producto no encontrado');
         }
-        this.productos.splice(this.productos.findIndex(producto => producto.id === id),1);
+        data.splice(index,1);
+        await this.save(data);
     }
 
-}
-module.exports = api;
+    getId(){
+        return this.getAll().length>0?this.getAll()[this.getAll().length-1].id+1:1;
+    }
+
+
+   }
+    module.exports=api;
+
+
+

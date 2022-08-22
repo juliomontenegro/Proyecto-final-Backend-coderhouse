@@ -1,7 +1,7 @@
 [
   {
-    "nombre": "Camisa ",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et pulvinar orci, sed sollicitudin neque.",
+    "nombre": "Camisa Archivo ",
+    "descripcion": "Producto guardado en base de datos Archivo",
     "codigo": "510",
     "foto": "https://i.imgur.com/QpjAiHq.jpg",
     "precio": "3000",
@@ -10,8 +10,8 @@
     "timestamp": 1658177703543
   },
   {
-    "nombre": "Camisa y Zapatos",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et pulvinar orci, sed sollicitudin neque.",
+    "nombre": "Camisa y Zapatos Archivo",
+    "descripcion": "Producto guardado en base de datos Archivo",
     "codigo": "280",
     "foto": "https://i.imgur.com/JvPeqEF.jpg",
     "precio": "7000",
@@ -20,8 +20,8 @@
     "timestamp": 1658177845724
   },
   {
-    "nombre": "Camisa Rayada",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et pulvinar orci, sed sollicitudin neque.",
+    "nombre": "Camisa Rayada Archivo",
+    "descripcion": "Producto guardado en base de datos Archivo",
     "codigo": "190",
     "foto": "https://i.imgur.com/Bf4dIaN.jpg",
     "precio": "3200",
@@ -30,8 +30,8 @@
     "timestamp": 1658177966242
   },
   {
-    "nombre": "Camisas Color",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et pulvinar orci, sed sollicitudin neque.",
+    "nombre": "Camisas Color Archivo",
+    "descripcion": "Producto guardado en base de datos Archivo",
     "codigo": "36",
     "foto": "https://i.imgur.com/HO8e9b8.jpg",
     "precio": "2800",

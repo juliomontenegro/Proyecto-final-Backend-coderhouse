@@ -54,6 +54,7 @@ const getProducts = async () => {
 
 // eliminar un producto con un boton tomar su value y eliminar
 const deleteProduct = async (id) => {
+   
     const response = await fetch(`api/productos/${id}`, {
         method: "DELETE"
     });
@@ -110,7 +111,6 @@ const getCarrito = async () => {
 
     const response = await fetch("api/carrito/");
     const carro = await response.json();
-    console.log(carro);
     return carro;
     }
     const createCarritoTable = async (carro) => {
@@ -174,7 +174,26 @@ let btnagregarCarrito = async (idProd) => {
 
 }
 
-
+//eliminar un producto con la id de carrito y de producto con un delete a la ruta /api/carrito/:id/productos/:idProducto
+let btneliminarProducto = async (idProd) => {
+    const response = await fetch(`api/carrito/${idProd}/productos`, {
+        method: "DELETE"
+    });
+    const data = await response.json();
+    renderCarrito();
+    return data;
+}
+let btnEliProdCarrito = async (id_Prod) => {
+    const response=await fetch('api/carrito');
+    const carrito = await response.json();
+    const id = carrito[0].id;
+    const response2 = await fetch(`api/carrito/${id}/productos/${id_Prod}`, {
+        method: "DELETE"
+    });
+    const data = await response2.json();
+    renderCarrito();
+    return data;
+}
 
 
 

@@ -1,25 +1,39 @@
-const API =require('./api');
-const APICARRITO=require('./apicarrito');
-const express = require('express');
-const {Router} = express;
+import express from 'express';
+import {Router} from'express';
+// import {contenedorArchivo} from './Api/ContenedorArchivo.js';
+import{productoDao,carritoDao}from'./daos/index.js';
+
 const router = Router();
 const routerCarrito=Router();
 
+
+
+
 const app = express();
-const path = require('path');
 
-
-
+//configuracion de path
+import path from 'path';
+import {fileURLToPath} from 'url';
+const __dirname=path.dirname(fileURLToPath(import.meta.url));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, '..', './public')))
 
+//Rutas
 app.use('/api/productos', router);
 app.use('/api/carrito', routerCarrito);
 
-let api= new API('productos.json');
-let apicarrito= new APICARRITO('carrito.json');
+ 
+// let api= new contenedorArchivo('productos'); 
+// let apicarrito= new contenedorArchivo('carrito');
+let api=productoDao;  
+let apicarrito=carritoDao;
+
+
+
+
+
 
 const PORT=8080;
 
@@ -62,8 +76,6 @@ router.post("/",autAdmin, async (req, res) => {
     foto: req.body.foto,
     precio: req.body.precio,
     stock: req.body.stock,};
-  producto.id = api.getId();
-  producto.timestamp= Date.now();
   await api.add(producto);
   console.log(producto);
   res.json(api.getAll());
@@ -102,48 +114,44 @@ router.delete('/:id',autAdmin, async (req, res) => {
 
 
 routerCarrito.get("/", async (req, res) => {
-  const carrito = await apicarrito.getAllcarrito();
-  res.json(carrito);
+  const carrito = await apicarrito.getAll();
+  res.send(carrito);
 });
 
 
 // crea un carrito vacio y devuelve su id
 routerCarrito.post('/', async (req, res) => {
   const carrito ={
-    id: apicarrito.getIdcarrito(),
     productos: [],
-    total: 0,
-    timestamp: Date.now(),
     };
-  await apicarrito.addcarrito(carrito);
+  await apicarrito.add(carrito);
   const idCarrito=carrito.id;
   res.json(idCarrito);
 });
 
 //vacia un carrito y lo elimina con un boton por su id
 routerCarrito.delete('/:id', async (req, res) => {
-  await apicarrito.deletecarrito(parseInt(req.params.id));
-  res.json(apicarrito.getAllcarrito());
+  await apicarrito.delete(parseInt(req.params.id));
+  res.json(apicarrito.getAll());
 });
 
 
 //me permite listar todos los productos guardados en el carrito
 routerCarrito.get('/:id/productos', async (req, res) => {
-  res.json(await apicarrito.getByIdcarrito(parseInt(req.params.id)).productos);
+  res.json(await apicarrito.getById(parseInt(req.params.id)).productos);
 });
 
 
 
-  const carritoTemp=[]
 
-// recibir la id del producto por params y agregarlo al carrito asincronico y refactorizar
+
+// recibir la id del producto por params y agregarlo al carrito.
 routerCarrito.post('/:id/productos', async (req, res) => {
   const idcarrito=parseInt(req.params.id);
   const idproducto=parseInt(req.body.idProducto);
-  const producto= await api.getById(idproducto);
-  carritoTemp.push(producto);
-  await apicarrito.updatecarrito(idcarrito,carritoTemp);
-  res.json(await apicarrito.getByIdcarrito(idcarrito));
+  const producto=await api.getById(idproducto);
+  await apicarrito.updatecarrito(idcarrito,producto);
+  res.json(await apicarrito.getById(idcarrito)); 
 });
 
 
@@ -151,11 +159,11 @@ routerCarrito.post('/:id/productos', async (req, res) => {
 // eliminar un producto del carrito por su id de producto y su id de carrito
 routerCarrito.delete('/:id/productos/:id_Prod', async (req, res) => {
   await apicarrito.deleteProductocarrito(parseInt(req.params.id), parseInt(req.params.id_Prod));
-  res.json(await apicarrito.getAllcarrito());
+  res.json(await apicarrito.getAll());
 });
 
 
 // devuelve un carrito segun su id
 routerCarrito.get('/:id', async (req, res) => {
-  res.json(await apicarrito.getByIdcarrito(parseInt(req.params.id)));
+  res.json(await apicarrito.getById(parseInt(req.params.id)));
 });

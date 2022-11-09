@@ -1,22 +1,29 @@
 {
-  "name": "desafios",
+  "name": "tercera_entrega",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Tercera entrega del proyecto backend Coderhouse",
   "type": "module",
+  "main": "app.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
+    "bcrypt": "^5.1.0",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "express-handlebars": "^6.0.6",
-    "firebase-admin": "^11.0.1",
-    "mongoose": "^6.5.1",
-    "socket.io": "^4.5.1"
+    "express-session": "^1.17.3",
+    "mongoose": "^6.6.5",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "winston": "^3.8.2"
   }
 }

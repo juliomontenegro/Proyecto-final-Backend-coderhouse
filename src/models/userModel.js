@@ -9,7 +9,7 @@ const userSchema = new mongoose.Schema({
   age: Number,
   phone: String,
   address: String,
-  avatar:{type:String,required:true}
+  avatar: String,
 });
 
 const UserModel = mongoose.model(collection, userSchema);

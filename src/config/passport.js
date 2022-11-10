@@ -19,7 +19,7 @@ const initializePassport=()=>{
                 name:name,
                 email:email,
                 password:createHash(password),
-                avatar:req.file.filename,
+                avatar:`${req.protocol}://${req.get('host')}/public/img${req.file.filename}`,
                 phone:phone,
                 address:address,
                 age:age});

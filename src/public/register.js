@@ -37,7 +37,7 @@ let body = new FormData();
 
            document.getElementById('createdUser').innerHTML = `<div class="alert alert-success text-center" role="alert">Usuario Creado</div>`;
               setTimeout(() => {
-                window.location.href = '/login.html';
+                window.location.href = '/login'
             }, 2000);
          
         }

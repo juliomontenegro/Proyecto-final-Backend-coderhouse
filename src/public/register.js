@@ -42,7 +42,7 @@ let body = new FormData();
          
         }
     } catch (error) {
-        console.log(error);
+        document.getElementById('createdUser').innerHTML = `<div class="alert alert-danger text-center" role="alert">Error al crear usuario</div>`;
     }
 
 

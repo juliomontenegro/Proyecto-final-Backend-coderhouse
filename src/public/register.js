@@ -34,8 +34,12 @@ let body = new FormData();
         let data = await response.json();
         console.log(data);
         if (data.status === 'success') {
-           
-            window.location.href = '/login';
+
+           document.getElementById('createdUser').innerHTML = `<div class="alert alert-success text-center" role="alert">Usuario Creado</div>`;
+              setTimeout(() => {
+                window.location.href = '/login.html';
+            }, 2000);
+         
         }
     } catch (error) {
         console.log(error);

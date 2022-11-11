@@ -26,6 +26,7 @@ router.post('/login',passport.authenticate('login',{failureRedirect:'/api/sessio
         id:req.user._id,
         idCart:null
     }
+   
     debugLogger.info("Login success");
     res.send({status:"success",payload:req.user._id})
 })

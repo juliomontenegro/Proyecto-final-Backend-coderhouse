@@ -58,7 +58,7 @@ const Login= async()=>{
     const userInfo = await response.json()
     const templateHbs = `{{#if userInfo.user}}
     <div class="container pt-4">
-    <h4><img height="72px" width="72px" src="/img/{{userInfo.user.avatar}}" > Bienvenido: {{userInfo.user.name}}</h4>
+    <h4><img height="72px" width="72px" src="{{userInfo.user.avatar}}" > Bienvenido: {{userInfo.user.name}}</h4>
     <button onclick=logOut() class="btn btn-danger" >Desloguear</button>
     </div>
     {{/if}}`;

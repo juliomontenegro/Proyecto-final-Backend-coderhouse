@@ -3,6 +3,9 @@ import bcrypt from 'bcrypt';
 import{dirname} from 'path';
 import multer from 'multer';
 import winston from 'winston';
+import FirebaseStorage from 'multer-firebase-storage';
+import dotenv from 'dotenv';
+dotenv.config();
 
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -10,18 +13,22 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 export const createHash = password => bcrypt.hashSync(password,bcrypt.genSaltSync(10));
 export const compareHash = (existUser,password) => bcrypt.compareSync(password,existUser.password);
 
- const storage = multer.diskStorage({
-  destination:function(req,file,cb){
-   
-    cb(null,__dirname+'/public/img');
-  },
-  filename:function(req,file,cb){
-    cb(null,`${Date.now()}_IMG_${file.originalname}`);
-   
-  },
+
+
+export const upload = multer({
+  storage: FirebaseStorage({
+    bucketName: process.env.STORAGE_BUCKET_FIREBASE,
+    credentials: {
+      clientEmail: process.env.CLIENT_EMAIL_FIREBASE,
+      privateKey: process.env.PRIVATE_KEY_FIREBASE.replace(/\\n/g, "\n"),
+      projectId: process.env.PROJECT_ID_FIREBASE,
+    },
+    public: true,
+    unique: true,
+  }),
 });
 
-export const upload = multer({storage});
+
 
 //logger 
 

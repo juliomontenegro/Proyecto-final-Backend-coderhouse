@@ -10,7 +10,7 @@ const initializePassport=()=>{
     passport.use('register',new LocalStrategy({passReqToCallback:true, usernameField:'email'},async(req,email,password,done)=>{
        try{
         const{name,email,password,phone,address,age}=req.body;
-         console.log(req.file)
+         
         
         if(!name || !email || !password||!phone||!address) return done(null,false);
           let existUser = await userModel.findOne({email:email });
@@ -19,7 +19,7 @@ const initializePassport=()=>{
                 name:name,
                 email:email,
                 password:createHash(password),
-                avatar:`${req.protocol}://${req.get('host')}/public/img${req.file.filename}`,
+                avatar:req.file.publicUrl,
                 phone:phone,
                 address:address,
                 age:age});

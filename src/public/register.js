@@ -34,7 +34,8 @@ let body = new FormData();
         let data = await response.json();
         console.log(data);
         if (data.status === 'success') {
-          location.href="http://localhost:8080/login"
+
+            window.location.reload();
         }
     } catch (error) {
         console.log(error);

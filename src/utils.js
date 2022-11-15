@@ -14,13 +14,12 @@ export const createHash = password => bcrypt.hashSync(password,bcrypt.genSaltSyn
 export const compareHash = (existUser,password) => bcrypt.compareSync(password,existUser.password);
 
 
-
 export const upload = multer({
   storage: FirebaseStorage({
     bucketName: process.env.STORAGE_BUCKET_FIREBASE,
     credentials: {
       clientEmail: process.env.CLIENT_EMAIL_FIREBASE,
-      privateKey: process.env.PRIVATE_KEY_FIREBASE.replace(/\\n/g, "\n"),
+      privateKey: process.env.PRIVATE_KEY_FIREBASE.replace(/\\n/g, '\n'),
       projectId: process.env.PROJECT_ID_FIREBASE,
     },
     public: true,

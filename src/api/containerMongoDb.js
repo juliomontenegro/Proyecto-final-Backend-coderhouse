@@ -8,7 +8,7 @@ class containerMongoDb {
   }
   async getAll() {
     try {
-        const product = await this.collection.find({});
+        const product = await this.collection.find();
         return product;
     } catch (error) {
       debugLogger.error("Error in containerMongoDb getAll method");

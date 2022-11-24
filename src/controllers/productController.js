@@ -1,12 +1,19 @@
 import { productDao } from "../DAO/index.js";
 import { debugLogger } from "../utils.js";
+import productDto from "../DTO/productDto.js";
+
 
 let api=productDao
 
 export const productController={
     getProducts:async(req,res)=>{ 
         try{
-            const product=await api.getAll()
+            const productget=await api.getAll()
+            const product = productget.map((product) => {
+                return new productDto(product);
+              }
+              );
+             console.log(product);
             res.json(product);
         }catch(e){
             debugLogger(e)

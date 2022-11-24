@@ -23,15 +23,24 @@ const config = {
   Persistence: process.env.PERSISTENCE_SELECTED || DBS.filestorage,
 };
 
+class mongoClient {
+  constructor() {
+    this.connection=mongoose.connect(`mongodb+srv://${process.env.MONGOUSER}:${process.env.MONGOPASS}@${process.env.MONGO_CLUSTER}.mongodb.net/?retryWrites=true&w=majority`, {useNewUrlParser: true, useUnifiedTopology: true})
+    .then(()=>{console.log('Connected to Mongo')})
+    .catch((err)=>{console.log(err)})
+    }
+    static getInstance() {
+      if (!this.instance) {
+        this.instance = new mongoClient();
+      }
+      return this.instance;
+    } 
+  }
+
 
 
 //mongo connection
-if (process.env.PERSISTENCE_SELECTED == DBS.mongo) {
-
-mongoose.connect(`mongodb+srv://${process.env.MONGOUSER}:${process.env.MONGOPASS}@${process.env.MONGO_CLUSTER}.mongodb.net/?retryWrites=true&w=majority`, {useNewUrlParser: true, useUnifiedTopology: true})
-.then(()=>{console.log('Connected to Mongo')})
-.catch((err)=>{console.log(err)})
-}
+if (process.env.PERSISTENCE_SELECTED == DBS.mongo) mongoClient.getInstance();
 
 
 

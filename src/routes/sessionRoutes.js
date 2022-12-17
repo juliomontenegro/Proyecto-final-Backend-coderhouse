@@ -19,7 +19,7 @@ router.get('/loginfail',sessionController.loginFail);
 router.get("/current", sessionController.getCurrent);
 
 //logout
-router.get("/logout", sessionController.getLogout);
+router.get("/logout", sessionController.logout);
 
 
 

@@ -10,9 +10,6 @@ const register = async()=>{
 
 
 
-   console.log(avatar)
-
-    //agregar a body el avatar sin stringify
 let body = new FormData();
     body.append('name', name.value);
     body.append('email', email.value);
@@ -45,35 +42,4 @@ let body = new FormData();
         document.getElementById('createdUser').innerHTML = `<div class="alert alert-danger text-center" role="alert">Error al crear usuario</div>`;
     }
 
-
-    
-
-
-    // let response = await fetch("/api/sessions/register", {
-    //   method: "POST",
-    //   headers: {
-      
-    //     "Content-Type": "multipart",
-      
-    //   },
-    //   body: JSON.stringify({
-    //     name: name.value,
-    //     email: email.value,
-    //     password: password.value,
-    //     address: address.value,
-    //     phone: phone.value,
-    //     //upload imagen to server
-    //     avatar: avatar.files[0],
-    //     age: age.value,
-    //   }),
-    //   body.append('avatar',avatar.files[0])
-    // });
-    // let data=await response.json();
-    // if(data.status=="success"){
-    //     //redirecionar a login
-    //     location.href="http://localhost:8080/login"
-    // }
-
-
-    // return data;
 }

@@ -10,4 +10,7 @@ router.get("/", orderController.getOrders);
 //creates an empty cart and returns id
 router.post("/", orderController.createCart);
 
+//get all orders
+router.get("/all", orderController.getAllOrders);
+
 export default router;

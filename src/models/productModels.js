@@ -8,7 +8,7 @@ const productSchema=new Schema({
     nombre:{type:String,required:true,maxlength:100},
     descripcion:{type:String,required:true,maxlength:100},
     codigo:{type:Number,required:true},
-    foto:{type:String,required:true,maxlenght:100},
+    foto:{type:String,required:true,maxlenght:200},
     precio:{type:Number,required:true},
     stock:{type:Number,required:true},
     timestamp:{type:Date}

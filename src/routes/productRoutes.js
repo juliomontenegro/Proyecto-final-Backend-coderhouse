@@ -6,12 +6,12 @@ const router = Router();
 
 
 // middleware admin
-const ADMIN = true;
+
 
 const autAdmin = (req, res, next) => {
-  if (!ADMIN) res.send({ error: "unauthorized user" });
 
-  next();
+  if(req.session.user.role ==="admin"){ next()}
+
 };
 
 router.get("/", productController.getProducts);

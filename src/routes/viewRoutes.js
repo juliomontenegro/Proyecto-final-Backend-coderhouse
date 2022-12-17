@@ -7,11 +7,16 @@ const router = Router();
 
 router.get('/',viewController.getHome);
   
-  router.get('/register', viewController.getRegister);
+router.get('/register', viewController.getRegister);
   
-  router.get('/login', viewController.getLogin);
-  
-  router.get('/logout', viewController.getLogout);
+router.get('/login', viewController.getLogin);
+
+router.get('/admin', viewController.getAdmin);
+
+router.get('/orders', viewController.getAllOrders);
+
+
+
 
 
 

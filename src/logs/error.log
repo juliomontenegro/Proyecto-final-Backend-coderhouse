@@ -1,0 +1,1422 @@
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-05T21:15:20.336Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T00:34:58.362Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T00:44:37.062Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T00:50:35.082Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T00:51:10.658Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T00:59:27.546Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T01:00:56.700Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T01:02:52.617Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T01:03:21.391Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T01:05:33.447Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T01:06:51.575Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T01:09:47.885Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T01:11:17.438Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T01:17:34.294Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T01:19:43.813Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-09T02:31:01.194Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-10T16:21:47.260Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-10T16:24:25.553Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-10T16:26:44.438Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-10T16:27:30.321Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-10T16:31:24.426Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-10T16:33:44.779Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-10T16:34:49.052Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-10T16:36:15.231Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-10T16:37:14.930Z'
+}
+{
+  level: 'error',
+  message: "Error in viewController getLogin method:  Cannot read properties of undefined (reading 'role')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'role')\n" +
+    '    at getLogin (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/viewController.js:24:34)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  timestamp: '2022-12-14T08:02:25.250Z'
+}
+{
+  level: 'error',
+  message: "Error in viewController getLogin method:  Cannot read properties of undefined (reading 'role')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'role')\n" +
+    '    at getLogin (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/viewController.js:24:34)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  timestamp: '2022-12-14T08:02:30.951Z'
+}
+{
+  level: 'error',
+  message: "Error in viewController getLogin method:  Cannot read properties of undefined (reading 'role')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'role')\n" +
+    '    at getLogin (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/viewController.js:24:34)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  timestamp: '2022-12-14T08:02:35.402Z'
+}
+{
+  level: 'error',
+  message: "Error in viewController getLogin method:  Cannot read properties of undefined (reading 'role')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'role')\n" +
+    '    at getLogin (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/viewController.js:24:34)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  timestamp: '2022-12-14T08:02:48.396Z'
+}
+{
+  level: 'error',
+  message: "Error in viewController getLogin method:  Cannot read properties of undefined (reading 'role')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'role')\n" +
+    '    at getLogin (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/viewController.js:24:34)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  timestamp: '2022-12-14T08:03:00.261Z'
+}
+{
+  level: 'error',
+  message: "Error in viewController getLogin method:  Cannot read properties of undefined (reading 'role')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'role')\n" +
+    '    at getLogin (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/viewController.js:25:34)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  timestamp: '2022-12-14T08:06:28.058Z'
+}
+{
+  level: 'error',
+  message: "Error in viewController getLogin method:  Cannot read properties of undefined (reading 'role')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'role')\n" +
+    '    at getLogin (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/viewController.js:27:34)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  timestamp: '2022-12-14T08:06:52.463Z'
+}
+{
+  level: 'error',
+  message: "Error in viewController getLogin method:  Cannot read properties of undefined (reading 'role')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'role')\n" +
+    '    at getLogin (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/viewController.js:27:34)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  timestamp: '2022-12-14T08:06:54.252Z'
+}
+{
+  level: 'error',
+  message: 'Error in orderController getAllOrders method: containerMongoDb is not defined',
+  stack: 'ReferenceError: containerMongoDb is not defined\n' +
+    '    at getAllOrders (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/orderController.js:62:20)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:376:14)\n' +
+    '    at Function.process_params (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:421:3)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  timestamp: '2022-12-14T17:23:33.009Z'
+}
+{
+  level: 'error',
+  message: 'Error in orderController getAllOrders method: containerMongoDb is not defined',
+  stack: 'ReferenceError: containerMongoDb is not defined\n' +
+    '    at getAllOrders (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/orderController.js:62:20)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  timestamp: '2022-12-14T17:26:13.050Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController addCart method:  Cannot set properties of undefined (setting 'idCart')",
+  stack: "TypeError: Cannot set properties of undefined (setting 'idCart')\n" +
+    '    at addCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:44:31)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2022-12-16T19:56:43.921Z'
+}
+{
+  message: 'Error in containerMongoDb getById method',
+  level: 'error',
+  timestamp: '2022-12-16T19:56:44.027Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"NaN"',
+  kind: 'Number',
+  value: NaN,
+  path: 'id',
+  reason: AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!isNaN(val))
+  
+      at castNumber (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\cast\number.js:27:10)
+      at SchemaNumber.cast (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schema\number.js:376:12)
+      at SchemaType.applySetters (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1201:12)
+      at SchemaType._castForQuery (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1648:15)
+      at SchemaNumber.castForQuery (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schema\number.js:430:14)
+      at SchemaType.castForQueryWrapper (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\cast.js:347:32)
+      at Query.cast (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\query.js:5319:12)
+      at Query._castConditions (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\query.js:2198:10)
+      at model.Query.<anonymous> (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\query.js:2501:8) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '=='
+  },
+  valueType: 'number',
+  level: 'error',
+  message: 'Error in cartController getCartById method: Cast to Number failed for value "NaN" (type number) at path "id" for model "carrito"',
+  stack: 'CastError: Cast to Number failed for value "NaN" (type number) at path "id" for model "carrito"\n' +
+    '    at model.Query.exec (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:4891:21)\n' +
+    '    at Query.then (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:4990:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2022-12-16T19:56:44.029Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T19:56:57.527Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  limit cannot be used with findOneAndUpdate',
+  stack: 'Error: limit cannot be used with findOneAndUpdate\n' +
+    '    at Query._validate (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mquery\\lib\\mquery.js:3158:11)\n' +
+    '    at model.Query.limit (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:844:8)\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:103:7)\n' +
+    '    at delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:17)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:365:14)',
+  timestamp: '2022-12-16T19:56:57.533Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T19:57:27.174Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  limit cannot be used with findOneAndUpdate',
+  stack: 'Error: limit cannot be used with findOneAndUpdate\n' +
+    '    at Query._validate (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mquery\\lib\\mquery.js:3158:11)\n' +
+    '    at model.Query.limit (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:844:8)\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:102:7)\n' +
+    '    at delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:17)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:365:14)',
+  timestamp: '2022-12-16T19:57:27.192Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T19:59:33.553Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  limit cannot be used with findOneAndUpdate',
+  stack: 'Error: limit cannot be used with findOneAndUpdate\n' +
+    '    at Query._validate (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mquery\\lib\\mquery.js:3158:11)\n' +
+    '    at model.Query.limit (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:844:8)\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:102:7)\n' +
+    '    at delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:17)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:365:14)',
+  timestamp: '2022-12-16T19:59:33.574Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T20:46:10.321Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  conaole is not defined',
+  stack: 'ReferenceError: conaole is not defined\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:100:5)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T20:46:10.334Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T20:47:53.026Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController delProductCart method:  Cannot read properties of undefined (reading '_id')",
+  stack: "TypeError: Cannot read properties of undefined (reading '_id')\n" +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:103:44)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T20:47:53.028Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T20:47:56.148Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController delProductCart method:  Cannot read properties of undefined (reading '_id')",
+  stack: "TypeError: Cannot read properties of undefined (reading '_id')\n" +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:103:44)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T20:47:56.150Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T20:47:57.366Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController delProductCart method:  Cannot read properties of undefined (reading '_id')",
+  stack: "TypeError: Cannot read properties of undefined (reading '_id')\n" +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:103:44)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T20:47:57.369Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:11:08.598Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  this.collection.indexofArray is not a function',
+  stack: 'TypeError: this.collection.indexofArray is not a function\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:100:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:11:08.601Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:11:31.853Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  this.collection.indexofArray is not a function',
+  stack: 'TypeError: this.collection.indexofArray is not a function\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:100:41)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:11:31.860Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:13:23.395Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  consoler is not defined',
+  stack: 'ReferenceError: consoler is not defined\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:94:5)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:13:23.399Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:13:59.675Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  consoler is not defined',
+  stack: 'ReferenceError: consoler is not defined\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:94:5)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:13:59.680Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:18:57.507Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController delProductCart method:  Cannot read properties of undefined (reading '0')",
+  stack: "TypeError: Cannot read properties of undefined (reading '0')\n" +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:94:31)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:18:57.514Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:21:27.726Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController delProductCart method:  Cannot read properties of undefined (reading '_id')",
+  stack: "TypeError: Cannot read properties of undefined (reading '_id')\n" +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:94:47)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:21:27.731Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:22:27.306Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController delProductCart method:  Cannot read properties of undefined (reading '_id')",
+  stack: "TypeError: Cannot read properties of undefined (reading '_id')\n" +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:94:47)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:22:27.309Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:24:02.574Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController delProductCart method:  Cannot read properties of undefined (reading '0')",
+  stack: "TypeError: Cannot read properties of undefined (reading '0')\n" +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:94:46)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:24:02.585Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:24:24.307Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController delProductCart method:  Cannot read properties of undefined (reading '0')",
+  stack: "TypeError: Cannot read properties of undefined (reading '0')\n" +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:94:46)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:24:24.314Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:27:42.534Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '""639ce2cef9e10ee1bf3af083""',
+  kind: 'ObjectId',
+  value: '"639ce2cef9e10ee1bf3af083"',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1201:12)
+      at SchemaType._castForQuery (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1648:15)
+      at SchemaType.castForQuery (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1636:15)
+      at SchemaType.castForQueryWrapper (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\cast.js:347:32)
+      at walkUpdatePath (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\helpers\query\castUpdate.js:193:20),
+  valueType: 'string',
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Cast to ObjectId failed for value ""639ce2cef9e10ee1bf3af083"" (type string) at path "_id" because of "BSONTypeError"',
+  stack: 'CastError: Cast to ObjectId failed for value ""639ce2cef9e10ee1bf3af083"" (type string) at path "_id" because of "BSONTypeError"\n' +
+    '    at model.Query.exec (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:4891:21)\n' +
+    '    at Query.then (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:4990:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2022-12-16T21:27:42.543Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:31:19.407Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer',
+  stack: 'BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer\n' +
+    '    at new BSONTypeError (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\bson\\lib\\error.js:41:28)\n' +
+    '    at new ObjectId (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\bson\\lib\\objectid.js:67:23)\n' +
+    '    at Object.ObjectId (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\bson\\lib\\objectid.js:26:20)\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:96:43)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:31:19.416Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:32:29.801Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  productos is not defined',
+  stack: 'ReferenceError: productos is not defined\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:93:75)\n' +
+    '    at delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:17)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:376:14)\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:376:14)',
+  timestamp: '2022-12-16T21:32:29.805Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:37:12.302Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  cart is not defined',
+  stack: 'ReferenceError: cart is not defined\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:105:5)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:37:12.304Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:37:51.767Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  cart is not defined',
+  stack: 'ReferenceError: cart is not defined\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:105:5)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:37:51.771Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:39:30.438Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  cart is not defined',
+  stack: 'ReferenceError: cart is not defined\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:105:5)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:39:30.441Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:41:35.952Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  cart is not defined',
+  stack: 'ReferenceError: cart is not defined\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:105:5)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T21:41:35.955Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:51:34.884Z'
+}
+{
+  ok: 0,
+  code: 9,
+  codeName: 'FailedToParse',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1671227496, i: 2 }),
+    signature: {
+      hash: new Binary(Buffer.from("637d083a448b79d308a29ba9ed939ee5d22a7cec", "hex"), 0),
+      keyId: new Long("7135136509220356098")
+    }
+  },
+  operationTime: new Timestamp({ t: 1671227496, i: 2 }),
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Expected a number in: productos: { id: 4 }',
+  stack: 'MongoServerError: Expected a number in: productos: { id: 4 }\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:207:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at TLSSocket.emit (node:events:513:28)',
+  timestamp: '2022-12-16T21:51:34.896Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T21:54:55.286Z'
+}
+{
+  ok: 0,
+  code: 9,
+  codeName: 'FailedToParse',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1671227696, i: 5 }),
+    signature: {
+      hash: new Binary(Buffer.from("3c9b9e054f57b01e2bbba876b1376853be4f8946", "hex"), 0),
+      keyId: new Long("7135136509220356098")
+    }
+  },
+  operationTime: new Timestamp({ t: 1671227696, i: 5 }),
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Expected a number in: productos: { id: 4 }',
+  stack: 'MongoServerError: Expected a number in: productos: { id: 4 }\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:207:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at TLSSocket.emit (node:events:513:28)',
+  timestamp: '2022-12-16T21:54:55.305Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T22:15:26.529Z'
+}
+{
+  index: 0,
+  code: 2,
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Cannot apply $pull to a non-array value',
+  stack: 'MongoServerError: Cannot apply $pull to a non-array value\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\operations\\update.js:85:33\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:299:25\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:212:17\n' +
+    '    at handleOperationResult (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:284:20)\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:219:9)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  timestamp: '2022-12-16T22:15:26.547Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T22:24:41.118Z'
+}
+{
+  index: 0,
+  code: 2,
+  level: 'error',
+  message: "Error in cartController delProductCart method:  unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.",
+  stack: "MongoServerError: unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\n" +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\operations\\update.js:85:33\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:299:25\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:212:17\n' +
+    '    at handleOperationResult (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:284:20)\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:219:9)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  timestamp: '2022-12-16T22:24:41.130Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T22:24:42.973Z'
+}
+{
+  index: 0,
+  code: 2,
+  level: 'error',
+  message: "Error in cartController delProductCart method:  unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.",
+  stack: "MongoServerError: unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\n" +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\operations\\update.js:85:33\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:299:25\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:212:17\n' +
+    '    at handleOperationResult (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:284:20)\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:219:9)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  timestamp: '2022-12-16T22:24:42.976Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T22:24:44.142Z'
+}
+{
+  index: 0,
+  code: 2,
+  level: 'error',
+  message: "Error in cartController delProductCart method:  unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.",
+  stack: "MongoServerError: unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\n" +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\operations\\update.js:85:33\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:299:25\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:212:17\n' +
+    '    at handleOperationResult (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:284:20)\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:219:9)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  timestamp: '2022-12-16T22:24:44.146Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T22:24:44.912Z'
+}
+{
+  index: 0,
+  code: 2,
+  level: 'error',
+  message: "Error in cartController delProductCart method:  unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.",
+  stack: "MongoServerError: unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\n" +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\operations\\update.js:85:33\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:299:25\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:212:17\n' +
+    '    at handleOperationResult (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:284:20)\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:219:9)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  timestamp: '2022-12-16T22:24:44.914Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T22:28:08.533Z'
+}
+{
+  index: 0,
+  code: 2,
+  level: 'error',
+  message: "Error in cartController delProductCart method:  unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.",
+  stack: "MongoServerError: unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\n" +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\operations\\update.js:85:33\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:299:25\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:212:17\n' +
+    '    at handleOperationResult (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:284:20)\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:219:9)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  timestamp: '2022-12-16T22:28:08.545Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T22:28:10.036Z'
+}
+{
+  index: 0,
+  code: 2,
+  level: 'error',
+  message: "Error in cartController delProductCart method:  unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.",
+  stack: "MongoServerError: unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\n" +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\operations\\update.js:85:33\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:299:25\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:212:17\n' +
+    '    at handleOperationResult (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:284:20)\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:219:9)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  timestamp: '2022-12-16T22:28:10.043Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T22:28:10.875Z'
+}
+{
+  index: 0,
+  code: 2,
+  level: 'error',
+  message: "Error in cartController delProductCart method:  unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.",
+  stack: "MongoServerError: unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\n" +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\operations\\update.js:85:33\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:299:25\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:212:17\n' +
+    '    at handleOperationResult (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:284:20)\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:219:9)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  timestamp: '2022-12-16T22:28:10.885Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T22:29:28.439Z'
+}
+{
+  index: 0,
+  code: 2,
+  level: 'error',
+  message: "Error in cartController delProductCart method:  unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.",
+  stack: "MongoServerError: unknown top level operator: $arrayElemAt. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\n" +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\operations\\update.js:85:33\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:299:25\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:212:17\n' +
+    '    at handleOperationResult (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:284:20)\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:219:9)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  timestamp: '2022-12-16T22:29:28.447Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T22:31:50.230Z'
+}
+{
+  index: 0,
+  code: 2,
+  level: 'error',
+  message: "Error in cartController delProductCart method:  unknown top level operator: $slice. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.",
+  stack: "MongoServerError: unknown top level operator: $slice. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\n" +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\operations\\update.js:85:33\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:299:25\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:212:17\n' +
+    '    at handleOperationResult (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:284:20)\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:219:9)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  timestamp: '2022-12-16T22:31:50.245Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T22:47:31.029Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"{ id: 121 }"',
+  kind: 'ObjectId',
+  value: { id: 121 },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1201:12)
+      at SchemaType._castForQuery (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1648:15)
+      at SchemaType.castForQuery (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1636:15)
+      at SchemaType.castForQueryWrapper (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\cast.js:291:34)
+      at Query.cast (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\query.js:5319:12),
+  valueType: 'Object',
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Cast to ObjectId failed for value "{ id: 121 }" (type Object) at path "_id" for model "carrito"',
+  stack: 'CastError: Cast to ObjectId failed for value "{ id: 121 }" (type Object) at path "_id" for model "carrito"\n' +
+    '    at model.Query.exec (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:4891:21)\n' +
+    '    at Query.then (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:4990:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2022-12-16T22:47:31.032Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-16T23:44:49.919Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  product is not defined',
+  stack: 'ReferenceError: product is not defined\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:103:20)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-16T23:44:49.943Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T00:08:01.875Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  data is not defined',
+  stack: 'ReferenceError: data is not defined\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:96:19)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-17T00:08:01.881Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T00:09:03.004Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  data is not defined',
+  stack: 'ReferenceError: data is not defined\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:96:19)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-17T00:09:03.011Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T00:13:48.488Z'
+}
+{
+  messageFormat: undefined,
+  stringValue: '"124"',
+  kind: 'ObjectId',
+  value: 124,
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1201:12)
+      at SchemaType._castForQuery (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1648:15)
+      at SchemaType.castForQuery (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1636:15)
+      at SchemaType.castForQueryWrapper (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\cast.js:347:32)
+      at Query.cast (C:\Users\Julio2\Desktop\Programacionbackend\Desafios\node_modules\mongoose\lib\query.js:5319:12),
+  valueType: 'number',
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Cast to ObjectId failed for value "124" (type number) at path "_id" for model "carrito"',
+  stack: 'CastError: Cast to ObjectId failed for value "124" (type number) at path "_id" for model "carrito"\n' +
+    '    at model.Query.exec (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:4891:21)\n' +
+    '    at Query.then (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:4990:15)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  timestamp: '2022-12-17T00:13:48.492Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T00:16:17.727Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController delProductCart method:  Cannot read properties of null (reading 'value')",
+  stack: "TypeError: Cannot read properties of null (reading 'value')\n" +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:97:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-17T00:16:17.731Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T00:17:02.931Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController delProductCart method:  Cannot read properties of null (reading 'value')",
+  stack: "TypeError: Cannot read properties of null (reading 'value')\n" +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:97:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-17T00:17:02.941Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T00:29:38.736Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Parameter "obj" to Document() must be an object, got 4',
+  stack: 'ObjectParameterError: Parameter "obj" to Document() must be an object, got 4\n' +
+    '    at EmbeddedDocument.Document (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\document.js:113:11)\n' +
+    '    at EmbeddedDocument.Subdocument (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\types\\subdocument.js:31:12)\n' +
+    '    at EmbeddedDocument.ArraySubdocument [as constructor] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\types\\ArraySubdocument.js:36:15)\n' +
+    '    at new EmbeddedDocument (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\schema\\documentarray.js:134:17)\n' +
+    '    at SchemaArray.castForQuery (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\schema\\array.js:548:13)\n' +
+    '    at SchemaType.castForQueryWrapper (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\schematype.js:1612:20)\n' +
+    '    at cast (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\cast.js:347:32)\n' +
+    '    at Query.cast (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:5319:12)\n' +
+    '    at castQuery (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:5120:18)\n' +
+    '    at Query._findAndModify (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:3956:23)',
+  timestamp: '2022-12-17T00:29:38.747Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T00:33:05.868Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController delProductCart method:  Can't use $pull with Array.",
+  stack: "Error: Can't use $pull with Array.\n" +
+    '    at SchemaArray.castForQuery (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\schema\\array.js:496:13)\n' +
+    '    at SchemaType.castForQueryWrapper (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\schematype.js:1602:22)\n' +
+    '    at cast (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\cast.js:326:39)\n' +
+    '    at Query.cast (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:5319:12)\n' +
+    '    at castQuery (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:5120:18)\n' +
+    '    at Query._findAndModify (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:3956:23)\n' +
+    '    at model.Query.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:3912:8)\n' +
+    '    at model.Query._wrappedThunk [as _findOneAndRemove] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:29:8)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  timestamp: '2022-12-17T00:33:05.874Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T00:34:41.297Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Parameter "obj" to Document() must be an object, got 4',
+  stack: 'ObjectParameterError: Parameter "obj" to Document() must be an object, got 4\n' +
+    '    at EmbeddedDocument.Document (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\document.js:113:11)\n' +
+    '    at EmbeddedDocument.Subdocument (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\types\\subdocument.js:31:12)\n' +
+    '    at EmbeddedDocument.ArraySubdocument [as constructor] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\types\\ArraySubdocument.js:36:15)\n' +
+    '    at new EmbeddedDocument (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\schema\\documentarray.js:134:17)\n' +
+    '    at SchemaArray.castForQuery (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\schema\\array.js:548:13)\n' +
+    '    at SchemaType.castForQueryWrapper (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\schematype.js:1612:20)\n' +
+    '    at cast (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\cast.js:347:32)\n' +
+    '    at Query.cast (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:5319:12)\n' +
+    '    at Query._castConditions (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:2198:10)\n' +
+    '    at model.Query.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:3652:8)',
+  timestamp: '2022-12-17T00:34:41.304Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T00:48:54.818Z'
+}
+{
+  level: 'error',
+  message: "Error in cartController delProductCart method:  Cannot read properties of undefined (reading 'nombre')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'nombre')\n" +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:94:102)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:7)',
+  timestamp: '2022-12-17T00:48:54.826Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T00:55:27.697Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  collection is not defined',
+  stack: 'ReferenceError: collection is not defined\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:92:18)\n' +
+    '    at delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:17)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:376:14)\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:376:14)',
+  timestamp: '2022-12-17T00:55:27.701Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T00:57:35.810Z'
+}
+{
+  index: 0,
+  code: 9,
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Expected a number in: productos: { id: 3 }',
+  stack: 'MongoServerError: Expected a number in: productos: { id: 3 }\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\operations\\update.js:85:33\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection_pool.js:299:25\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:212:17\n' +
+    '    at handleOperationResult (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\sdam\\server.js:284:20)\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:219:9)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  timestamp: '2022-12-17T00:57:35.824Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T01:24:46.262Z'
+}
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1671240286, i: 2 }),
+    signature: {
+      hash: new Binary(Buffer.from("f8bcde12ae37a7be268f0386818e83b2d90c8762", "hex"), 0),
+      keyId: new Long("7135136509220356098")
+    }
+  },
+  operationTime: new Timestamp({ t: 1671240286, i: 2 }),
+  level: 'error',
+  message: "Error in cartController delProductCart method:  unknown top level operator: $slice. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.",
+  stack: "MongoServerError: unknown top level operator: $slice. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\n" +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:207:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at TLSSocket.emit (node:events:513:28)',
+  timestamp: '2022-12-17T01:24:46.267Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T01:29:39.488Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Invalid atomic update value for $slice. Expected an object, received number',
+  stack: 'Error: Invalid atomic update value for $slice. Expected an object, received number\n' +
+    '    at castUpdate (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\helpers\\query\\castUpdate.js:103:13)\n' +
+    '    at model.Query._castUpdate (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:5104:10)\n' +
+    '    at Query._findAndModify (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:3989:29)\n' +
+    '    at model.Query.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\query.js:3470:8)\n' +
+    '    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:29:8)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  timestamp: '2022-12-17T01:29:39.511Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T01:30:04.462Z'
+}
+{
+  ok: 0,
+  code: 9,
+  codeName: 'FailedToParse',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1671240604, i: 6 }),
+    signature: {
+      hash: new Binary(Buffer.from("7337ada0182a0a7ec028b1b6860440f0d3b1376f", "hex"), 0),
+      keyId: new Long("7135136509220356098")
+    }
+  },
+  operationTime: new Timestamp({ t: 1671240604, i: 6 }),
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Expected a number in: productos: { id: 3 }',
+  stack: 'MongoServerError: Expected a number in: productos: { id: 3 }\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:207:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at TLSSocket.emit (node:events:513:28)',
+  timestamp: '2022-12-17T01:30:04.467Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T01:30:06.246Z'
+}
+{
+  ok: 0,
+  code: 9,
+  codeName: 'FailedToParse',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1671240606, i: 1 }),
+    signature: {
+      hash: new Binary(Buffer.from("e771994cdfc9e9ee6799c89ba517146f5e0f7817", "hex"), 0),
+      keyId: new Long("7135136509220356098")
+    }
+  },
+  operationTime: new Timestamp({ t: 1671240606, i: 1 }),
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Expected a number in: productos: { id: 3 }',
+  stack: 'MongoServerError: Expected a number in: productos: { id: 3 }\n' +
+    '    at Connection.onMessage (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:207:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\connection.js:60:60)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:132:20)\n' +
+    '    at MessageStream._write (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)\n' +
+    '    at _write (node:internal/streams/writable:333:10)\n' +
+    '    at Writable.write (node:internal/streams/writable:337:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:766:22)\n' +
+    '    at TLSSocket.emit (node:events:513:28)',
+  timestamp: '2022-12-17T01:30:06.251Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T01:30:59.879Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Callback must be a function, got [object Object]',
+  stack: 'MongooseError: Callback must be a function, got [object Object]\n' +
+    '    at Model.$handleCallbackError (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\model.js:5188:11)\n' +
+    '    at Model.findOneAndDelete (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\model.js:2838:19)\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:92:40)\n' +
+    '    at delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:17)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:365:14)',
+  timestamp: '2022-12-17T01:30:59.884Z'
+}
+{
+  message: 'Error in containerMongoDb deleteProductCart method',
+  level: 'error',
+  timestamp: '2022-12-17T01:31:00.963Z'
+}
+{
+  level: 'error',
+  message: 'Error in cartController delProductCart method:  Callback must be a function, got [object Object]',
+  stack: 'MongooseError: Callback must be a function, got [object Object]\n' +
+    '    at Model.$handleCallbackError (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\model.js:5188:11)\n' +
+    '    at Model.findOneAndDelete (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\mongoose\\lib\\model.js:2838:19)\n' +
+    '    at cartDaoMongoDb.deleteProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/api/containerMongoDb.js:92:40)\n' +
+    '    at delProductCart (file:///C:/Users/Julio2/Desktop/Programacionbackend/Desafios/src/controllers/cartController.js:124:17)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at param (C:\\Users\\Julio2\\Desktop\\Programacionbackend\\Desafios\\node_modules\\express\\lib\\router\\index.js:365:14)',
+  timestamp: '2022-12-17T01:31:00.966Z'
+}

@@ -6,9 +6,9 @@ class containerMongoDb {
   constructor(collection, schema) {
     this.collection = mongoose.model(collection, schema);
   }
-  async getAll() {
+  async getAll(params) {
     try {
-        const product = await this.collection.find();
+        const product = await this.collection.find(params);
         return product;
     } catch (error) {
       debugLogger.error("Error in containerMongoDb getAll method");
@@ -109,19 +109,6 @@ async deleteProductCart(id_Cart, id_Prod) {
       throw error;
   }
 }
-
-
-
-   async getOrdersByEmail(email) {
-    try {
-      const orders = await this.collection.find({user: email});
-      return orders;
-    } catch (error) {
-      debugLogger.error("Error in containerMongoDb getOrdersByEmail method");
-      throw error;
-    }
-
-  }
 
 
 }

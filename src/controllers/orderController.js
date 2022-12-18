@@ -60,7 +60,7 @@ export const orderController = {
   getAllOrders: async (req, res) => {
     try {
       const email=req.session.user.email;
-    const orders = await api.getOrdersByEmail(email);
+    const orders = await api.getAll({email:email});
    
     res.status(200).json(orders);
     } catch (error) {

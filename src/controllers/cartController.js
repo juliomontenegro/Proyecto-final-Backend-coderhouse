@@ -98,9 +98,9 @@ export const cartController = {
       }
       
       const idCart = parseInt(req.params.id);
-      const idProduct = parseInt(req.body.idProducto);
+      const Product = req.body.idProducto
       
-      await api.updateCart(idCart, idProduct);
+      await api.updateCart(idCart, Product);
       debugLogger.info("Product added to cart");
       
       

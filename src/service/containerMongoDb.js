@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { productModels } from "../models/productModels.js";
 import { debugLogger } from "../utils.js";
 
 class containerMongoDb {
@@ -74,10 +73,9 @@ class containerMongoDb {
 
   async updateCart(id, producto) {
     try {
-        const product=await productModels.findOne({id:producto})
         await this.collection.findOneAndUpdate(
             { id: id },
-            { $push: { productos: product } }
+            { $push: { productos: producto } }
           );
     } catch (error) {
       debugLogger.error("Error in containerMongoDb updateCart method");

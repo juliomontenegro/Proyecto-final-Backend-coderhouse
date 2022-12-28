@@ -189,6 +189,15 @@ let current= async () => {
 let addProductCart = async (idProd) => {
     let id = await current();
     let idprod = idProd;
+
+    const product= await fetch(`api/productos/${idprod}`);
+    const dataproduct = await product.json();
+    if(dataproduct.stock===0){
+        alert("No hay stock disponible")
+        return
+    }
+
+
    
     const response = await fetch(`api/carrito/${id}/productos`, {
         method: "POST",
@@ -196,7 +205,7 @@ let addProductCart = async (idProd) => {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            idProducto: idprod
+            idProducto: dataproduct
         })
         
     });

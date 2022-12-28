@@ -43,7 +43,7 @@ export const orderController = {
       
       let products = req.body.productos;
       products[0].forEach(async (element) => {
-        await api.updateCart(idOrder, [element.id]);
+        await api.updateCart(idOrder, [element]);
       });
       
       

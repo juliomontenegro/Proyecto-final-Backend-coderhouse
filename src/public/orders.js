@@ -1,7 +1,7 @@
 const renderAllOrders = async () => {
   const data = await fetch(`api/ordenes/all`);
   const dataOrders = await data.json();
-  console.log(dataOrders);
+
   let templateHbs = "";
   dataOrders.forEach((order) => {
     order.total = order.productos.reduce(

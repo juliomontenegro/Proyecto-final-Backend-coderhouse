@@ -29,7 +29,7 @@ let body = new FormData();
             body: body,
         });
         let data = await response.json();
-        console.log(data);
+      
         if (data.status === 'success') {
 
            document.getElementById('createdUser').innerHTML = `<div class="alert alert-success text-center" role="alert">Usuario Creado</div>`;

@@ -185,7 +185,7 @@ const templateHbs=`<section class="container pt-4">
             })
         };
         const data = await fetch(`api/productos/${id}`, response);
-        console.log(data);
+      
         productTable();
         
     })}

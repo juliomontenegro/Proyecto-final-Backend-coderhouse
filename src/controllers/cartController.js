@@ -114,7 +114,7 @@ export const cartController = {
   },
   delProductCart: async (req, res) => {
     try {
-      // Validar que se recibieron los parámetros necesarios en la solicitud
+      
       if (!req.params.id || !req.params.id_Prod) {
         return res.status(400).json({
           error: "Missing ID parameters in request",
@@ -137,20 +137,16 @@ export const cartController = {
   },
   getCartById: async (req, res) => {
     try {
-      // Validar que se recibió un ID válido en la solicitud
+      
       if (!req.params.id) {
         return res.status(400).json({
           error: "Missing ID parameter in request",
         });
       }
-      
-      // Parsear el ID del carrito a un número
       const idCart = parseInt(req.params.id);
-        
-      // Usar el ID parseado en lugar del valor original
+
       const cart = await api.getById(idCart);
-      
-      // Si el carrito no existe, devolver un código de estado 404
+
       if (!cart) {
         return res.status(404).json({
           error: "Cart not found",
@@ -159,7 +155,6 @@ export const cartController = {
       
       res.status(200).json(cart);
     } catch (error) {
-      // Capturar y analizar el error
       debugLogger.error("Error in cartController getCartById method:", error);
       res.status(500).json({
         error: "An error occurred while trying to get the cart",
